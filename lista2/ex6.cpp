@@ -19,12 +19,12 @@ int main(){
                 f = true;
                 break;
             }
+        }
         if(!f){
             r.push_back(-1);
         }
-
-        }
     }
+    
     r.push_back(-1);
     for(int i = 0; i < n; i++){
         cout << r[i] << " ";
